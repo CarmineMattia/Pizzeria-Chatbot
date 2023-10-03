@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #2d0a0a; /* This ensures the background color covers the entire page */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* This ensures the App container takes at least the full viewport height */
+  padding: 20px 0;
+  background-color: #2d0a0a;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 3em;
+  color: #f2e8c6;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+p {
+  color: #f2e8c6;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+/* Code box styling for commands */
+code {
+  background-color: #f2e8c6;
+  color: #952323;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.chat {
+  width: 450px;
+  min-height: 550px;
+  background-color: #dad4b5;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 20px 0px;
+}
+
+.chat-header {
+  background-color: #952323;
+  padding: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.chat-header h2 {
+  color: #f2e8c6;
+  margin: 0;
+  font-weight: 500;
+}
+.li-text-color {
+  color: #f2e8c6;
+}
+
+.chat-content {
+  flex: 1;
+  padding: 15px 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns items to the start by default (for bot messages) */
+}
+
+.chat-message {
+  padding: 12px 20px; /* Increased horizontal padding for a more oval shape */
+  margin: 8px 0;
+  border-radius: 20px; /* Increased border-radius for a more oval shape */
+  display: inline-block;
+  max-width: 80%;
+  width: fit-content; /* This ensures the box fits the content */
+}
+
+.chat-message.user {
+  background-color: #a73121;
+  color: #f2e8c6;
+  align-self: flex-end; /* Aligns user messages to the end */
+}
+
+.chat-message.bot {
+  background-color: #952323;
+  color: #f2e8c6;
+}
+
+.chat-controls {
+  display: flex;
+  padding: 10px 20px;
+  border-top: 2px solid #a73121;
+}
+
+.chat-input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 12px;
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+.chat-send {
+  padding: 8px 15px;
+  background-color: #952323;
+  color: #f2e8c6;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.chat-send:hover {
+  background-color: #a73121;
+}
+.error-message {
+  color: red;
+  padding: 10px;
+  text-align: center;
+}
