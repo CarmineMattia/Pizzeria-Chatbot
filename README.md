@@ -5,9 +5,7 @@ Welcome to the most delicious chatbot on the planet! 🌍 Our Pizzeria Chatbot i
 ## 🚀 Getting Started
 
 1. **Clone the Repo** 📂:
-   ```bash
-  git clone [  https://github.com/CarmineMattia/Pizzeria-Chatbot.git]
-   ```
+  git clone https://github.com/CarmineMattia/Pizzeria-Chatbot.git
 
 2. **Navigate to the Project Directory** 🚶:
    ```bash
