@@ -1,0 +1,35 @@
+{
+    "options": {
+        "schema": "pizzeria_chatbot",
+        "table": "personal_access_tokens",
+        "columns": [
+            "id",
+            "tokenable_type",
+            "tokenable_id",
+            "name",
+            "token",
+            "abilities",
+            "last_used_at",
+            "expires_at",
+            "created_at",
+            "updated_at"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

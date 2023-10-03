@@ -1,0 +1,30 @@
+{
+    "options": {
+        "schema": "pizzeria_chatbot",
+        "table": "orders",
+        "columns": [
+            "id",
+            "created_at",
+            "updated_at",
+            "pizza_name",
+            "quantity"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

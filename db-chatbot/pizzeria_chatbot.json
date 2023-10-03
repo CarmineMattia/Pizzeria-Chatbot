@@ -1,0 +1,28 @@
+{
+    "schema": "pizzeria_chatbot",
+    "includesDdl": true,
+    "includesViewsDdl": true,
+    "includesData": true,
+    "tables": [
+        "password_resets",
+        "failed_jobs",
+        "menu",
+        "migrations",
+        "orders",
+        "users",
+        "personal_access_tokens"
+    ],
+    "views": [],
+    "events": [],
+    "functions": [],
+    "procedures": [],
+    "basenames": {
+        "password_resets": "pizzeria_chatbot@password_resets",
+        "failed_jobs": "pizzeria_chatbot@failed_jobs",
+        "menu": "pizzeria_chatbot@menu",
+        "migrations": "pizzeria_chatbot@migrations",
+        "orders": "pizzeria_chatbot@orders",
+        "users": "pizzeria_chatbot@users",
+        "personal_access_tokens": "pizzeria_chatbot@personal_access_tokens"
+    }
+}

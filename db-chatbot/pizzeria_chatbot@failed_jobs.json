@@ -1,0 +1,32 @@
+{
+    "options": {
+        "schema": "pizzeria_chatbot",
+        "table": "failed_jobs",
+        "columns": [
+            "id",
+            "uuid",
+            "connection",
+            "queue",
+            "payload",
+            "exception",
+            "failed_at"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}
