@@ -1,8 +1,8 @@
 # 🍕 Pizzeria Chatbot 🤖
 
 Welcome to the most delicious chatbot on the planet! 🌍 Our Pizzeria Chatbot is here to take your orders, answer your pizza-related questions, and sprinkle some humor on your day. 🎉
-<img src="bot-screen.png" width="400" height="300">
-![Pizzeria Chatbot Screenshot](bot-screen.png)
+<img src="bot-screen.png" width="200" height="100">
+
 
 ![Pizzeria Chatbot Video](React-App-Chatbot.gif)
 
