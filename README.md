@@ -1,13 +1,13 @@
 # 🍕 Pizzeria Chatbot 🤖
 
 Welcome to the most delicious chatbot on the planet! 🌍 Our Pizzeria Chatbot is here to take your orders, answer your pizza-related questions, and sprinkle some humor on your day. 🎉
-```markdown
 ![Pizzeria Chatbot Screenshot](bot-screen.png)
 
 ![Pizzeria Chatbot Video](React-App-Chatbot.gif)
 
 ## 🚀 Getting Started
 
+```markdown
 1. **Clone the Repo** 📂:
    ```bash
    git clone https://github.com/CarmineMattia/Pizzeria-Chatbot.git
